@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      // CHANGE THIS: RowMainAxis() / RowCrossAxis() / ColumnMainAxis() / ColumnCrossAxis()
+      //RowMainAxis(), RowCrossAxis(), ColumnMainAxis(), ColumnCrossAxis()
       home: RowMainAxis(),
     );
   }
